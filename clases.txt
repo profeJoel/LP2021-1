@@ -1,0 +1,21 @@
+Clase 1 - (06/04/2021) - Introducción a los Lenguajes de Programación https://youtu.be/jpwpXfhEJ_I
+Clase 2 - (07/04/2021) - Introducción a GIT https://youtu.be/l6WFkopmhiI
+Clase 3 - (08/04/2021) - Introducción a GitHub https://youtu.be/FjLVNEiGBm4
+
+Clase 4 - (13/04/2021) - Compiladores e Interpretes y Ciclo de Vida del Software. https://youtu.be/tbl7o6IQOeE
+Clase 5 - (14/04/2021) - Arquitectura de Software y Diseño de Soluciones https://youtu.be/Xf5b43fFTA8
+Clase 6 - (15/04/2021) - Introducción a UML https://youtu.be/N2-TGqhrwpk
+
+Clase 7 - (20/04/2021) - Presentaciones de Patrones de Diseño https://youtu.be/qizIQmkqzdc
+Clase 8 - (21/04/2021) - Ejemplo de Diagrama de Casos de Uso y Secuencia https://youtu.be/KoghyMvGTow
+Clase 9 - (22/04/2021) - Ejemplo de Diagrama de Casos de Uso y Secuencia 2 https://youtu.be/Jm1DDwxpVO0
+
+Clase 10 - (27/04/2021) - Finalización de Diagrama de Clases sobre el Problema de Horarios ULagos https://youtu.be/Y6YYaeGCvh8
+Clase 11 - (29/04/2021) - Presentación de Soluciones UML de Guía https://youtu.be/tjuWzOPhQq0
+
+Clase 12 - (04/05/2021) - Presentaciones de Soluciones de Ejercicios UML https://youtu.be/SBx-p2HsmA4
+Clase 13 - (05/05/2021) - Presentaciones de Soluciones de Ejercicios UML https://youtu.be/SDdLjOCI_Dk
+Clase 14 - (06/05/2021) - Presentaciones de Soluciones de Ejercicios UML https://youtu.be/BxWyZtfDq6s
+
+Clase 15 - (11/05/2021) - Revisión de Enunciado de Parcial 1: Sección Teórica y Práctica. https://youtu.be/FDzFzsU8RoY
+Clase 16 - (11/05/2021) - Resolución de Dudas para Parcial 1: Sección Teórica y Práctica https://youtu.be/PyP6diAJfVw
