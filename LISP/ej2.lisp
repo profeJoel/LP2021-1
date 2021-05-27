@@ -1,16 +1,17 @@
 (setq *print-case* :capitalize)
 
-(+ 5 (- 6 2)); = 9
+(format t "resultado ~d ~%" (+ 5 (- 6 2))); R = 5 + (6 - 2) = 9
+;;; [+] [5] [[-] [6] [2] [nil]] [nil]
 
 ;;; (+ 5 4)
 ;;; [+] [5] [4] [nil]
 
-(defvar *number* 0); crear variable
-(setf *number* 6); cambiar valor de la variable
+(defvar *numero* 0); crea variable
+(setf *numero* 7); cambia el valor a 7
+(format t "Valor es ~d ~%" *numero*)
 
-(format t "Numero con comas > ~:d ~%" 1000000)
+(format t "numero con comas > ~:d ~%" 1000000)
 (format t "PI en 5 caracteres > ~5f ~%" 3.141593)
-(format t "PI en 4 decimales > ~,4f ~%" 3.141593)
-(format t "10 porciento > ~,,2f ~%" .10)
-(format t "10 Dolares > ~$ ~%" 10)
-
+(format t "PI con 4 decimales > ~,4f ~%" 3.141593)
+(format t "porcentajes > ~,,2f ~%" .10)
+(format t "dolares > ~$ ~%" 10)
