@@ -19,3 +19,9 @@ Clase 14 - (06/05/2021) - Presentaciones de Soluciones de Ejercicios UML https:/
 
 Clase 15 - (11/05/2021) - Revisión de Enunciado de Parcial 1: Sección Teórica y Práctica. https://youtu.be/FDzFzsU8RoY
 Clase 16 - (11/05/2021) - Resolución de Dudas para Parcial 1: Sección Teórica y Práctica https://youtu.be/PyP6diAJfVw
+
+Clase 17 - (25/05/2021) - Revisión de un Ejercicio del Parcial 1 https://youtu.be/G6AwpN6jJb0
+Clase 18 - (26/05/2021) - Introducción a los Lenguajes de Paradigma Funcional con LISP https://youtu.be/roaR7xWThbg
+Clase 19 - (27/05/2021) - Instalación y primeras clausulas en LISP https://youtu.be/2zK3c_73X_4
+
+Clase 20 - (01/05/2021) - Operaciones y Condicionales en LISP https://youtu.be/6fJe7A0SRTA

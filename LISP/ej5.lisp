@@ -51,4 +51,32 @@
     (print "si")
     (print "no")
 )
-;;;(when (condicion) (procedimiento afirmativo))
+;;;(when (condicion) (procedimiento afirmativo)) ; requiere que la condicion sea positiva
+
+(when (>= *edad* 23); (edad >= 23) = True
+    (format t "Se puede ir a vacunar ~%")
+    (format t "Dirijase a la Arena Puerto Montt ~%")
+)
+
+(terpri); Salto de linea
+
+;;;(unless (condicion) (procedimiento negativo)) ; requiere que la condicion sea negativa
+(unless (>= *edad* 23); (edad >= 23) = False
+    (format t "No se puede vacunar ~%")
+    (format t "Espere hasta el día correspondiente ~%")
+)
+
+;;; (cond ((if-condicion) (procedimiento)) ((else-condicion) (procedimiento)) (procedimiento-default))
+
+(cond 
+    ((>= *edad* 23)
+        (format t "Si se puede vacunar~%")
+        (format t "Vaya a un lugar de vacunación...~%")
+    )
+    ((and (>= *edad* 16) (< *edad* 23))
+        (format t "Está autorizado para vacunarse en el dia correspondiente...~%")
+        (format t "Espere hasta el día de vacunación correspondiente ~%")
+    )
+    (t (format t "NO se puede vacunar"))
+)
+
