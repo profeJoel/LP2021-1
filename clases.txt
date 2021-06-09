@@ -25,3 +25,6 @@ Clase 18 - (26/05/2021) - Introducción a los Lenguajes de Paradigma Funcional c
 Clase 19 - (27/05/2021) - Instalación y primeras clausulas en LISP https://youtu.be/2zK3c_73X_4
 
 Clase 20 - (01/05/2021) - Operaciones y Condicionales en LISP https://youtu.be/6fJe7A0SRTA
+Clase 21 - (02/06/2021) - Manejo de Listas con diferente dimensionalidad https://youtu.be/AAO2FvTZ0Uc
+Clase 22 - (03/06/2021) - Clausulas para Listas, Funciones y estructuras. https://youtu.be/x5Mr_Nk7dMw
+
