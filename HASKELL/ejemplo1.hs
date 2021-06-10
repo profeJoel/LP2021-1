@@ -1,3 +1,5 @@
+import Data.List
+import System.IO
 --TIpos de datos
 -- Integer Int
 -- Float
