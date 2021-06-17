@@ -77,3 +77,37 @@ listaConElementosCiclicos = take 10 (cycle [1,2,3,4,5])
 
 --ordenar elementos
 lista1Ordenada = sort lista1
+
+--lista generada doble
+listaDoble = [x*2 | x <- [1..10]]
+
+--lista con condiciones
+listaCondicional = [x*3 | x <- [1..20], x*3 <= 50]
+
+listaCondicional2 = [x | x <- [1..500], x `mod` 13 == 0, x `mod` 9 == 0]
+
+-- Combinar listas
+sumaDeListas = zipWith (+) [1,2,3,4,5] [6,7,8,9,10]
+restaDeListas = zipWith (-) [6,7,8,9,10] [1,2,3,4,5]
+
+--Filtrar listas
+listaFiltrada = filter (>10) sumaDeListas
+
+--Ciclo hasta que la condicion sea verdadera
+listaConCiclo = takeWhile (<=20) [2,4..]
+
+--operaciones dentro de las listas
+multiDeListas = foldl (*) 1 [2,3,4,5]
+
+--creacion de tuplas
+persona = ("Chanchito", 20)
+nombrePersona = fst persona
+edadPersona = snd persona
+
+listaDeNombres = ["Chanchito", "dieselll", "Long Jhonson"]
+listaDeDomicilios = ["Los canelos 123", "Los pinos 456", "Los Robles 678"]
+
+nombresConDomicilios = zip listaDeNombres listaDeDomicilios
+
+primeraPersona = head nombresConDomicilios
+nombrePrimeraPersona = fst primeraPersona

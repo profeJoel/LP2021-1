@@ -28,3 +28,7 @@ Clase 20 - (01/05/2021) - Operaciones y Condicionales en LISP https://youtu.be/6
 Clase 21 - (02/06/2021) - Manejo de Listas con diferente dimensionalidad https://youtu.be/AAO2FvTZ0Uc
 Clase 22 - (03/06/2021) - Clausulas para Listas, Funciones y estructuras. https://youtu.be/x5Mr_Nk7dMw
 
+--
+Clase 23 - (10/06/2021) - Introducción a Haskell https://youtu.be/eoijC_hs0ck
+Clase 24 - (10/06/2021) - Trabajo con listas en Haskell https://youtu.be/OaFvuoTyc5U
+
