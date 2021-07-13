@@ -1,0 +1,11 @@
+<script type="text/javascript">
+function format(elem)
+{
+   var mi_valor;
+   mi_valor=parseFloat(elem.value);
+   elem.value=mi_valor.toFixed(4);
+}
+</script>
+
+Cantidad: <input onChange="format(this)" name="cantidad"
+value="1.00">&dollar;

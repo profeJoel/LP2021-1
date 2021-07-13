@@ -1,0 +1,16 @@
+<script type="text/javascript">
+function PedirConfirmacion()
+{
+var agree;
+   agree=confirm("Enviar ahora?");
+   if (agree) {
+         //code to check data goes here
+         return true;
+   } else {
+         return false ;
+} }
+</script>
+
+<form action="accion.php" name="miform">
+Nombre: <input name="nombre" size="15"><br/>
+<input type="SUBMIT" value="Enviar datos" OnSubmit="return PedirConfirmacion()"></form>

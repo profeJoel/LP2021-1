@@ -32,3 +32,11 @@ Clase 22 - (03/06/2021) - Clausulas para Listas, Funciones y estructuras. https:
 Clase 23 - (10/06/2021) - Introducción a Haskell https://youtu.be/eoijC_hs0ck
 Clase 24 - (10/06/2021) - Trabajo con listas en Haskell https://youtu.be/OaFvuoTyc5U
 
+--
+Clase 25 - (15/06/2021) - Funciones sobre Listas y Creación de Main  en ejecutable en Haskell https://youtu.be/wc4zgks5Idc
+Clase 26 - (16/06/2021) - Introducción a los Lenguajes Lógicos: PROLOG https://youtu.be/Es25WLElzEw
+Clase 27 - (17/06/2021) - Razonamiento en Reglas, Consultas y Creación de Ejecutables en PROLOG https://youtu.be/IGBURGRC0Hk
+
+Clase 28 - (22/06/2021) - Presentación de Parcial 2 https://youtu.be/guITGuQ7jKI
+Clase 29 - (24/06/2021) - Consultas sobre Parcial 2 https://youtu.be/eX4c1AQ0v34
+
