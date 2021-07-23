@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+    {% block titulo %} Esta es mi primera pagina con template {% endblock %}
+    {% block contenido %}
+    <form action="#" method="post">
+        <h1>Formulario</h1>
+        
+        <p>Nickname:</p>
+        <p><input type="text" name="nombre"/></p>
+        
+        <p>Contraseña:</p>
+        <p><input type="password" name="psw"/></p>
+
+        <p><input type="submit" value="submit"/></p>
+    </form>
+        
+    {% endblock %}

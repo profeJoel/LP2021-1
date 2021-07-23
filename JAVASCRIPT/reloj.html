@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script language="javascript">
+            function iniciarReloj(){
+                momentoActual = new Date()
+                hora = momentoActual.getHours()
+                minuto = momentoActual.getMinutes()
+                segundo = momentoActual.getSeconds()
+
+                str_sec = new String(segundo)
+                if(str_sec.length == 1)
+                    segundo = "0" + segundo
+                str_min = new String(minuto)
+                if(str_min.length == 1)
+                    minuto = "0" + minuto
+                str_hor = new String(hora)
+                if(str_hor.length == 1)
+                    hora = "0" + hora
+
+                horaImprimible = hora + " : " + minuto + " : " + segundo
+
+                document.form_reloj.reloj.value = horaImprimible
+                setTimeout("iniciarReloj()", 1000)
+            }
+        </script>
+    </head>
+    <body onload="iniciarReloj()">
+        A continuacion, se ve el reloj...
+
+        <form name = "form_reloj">
+            <input type="text" name = "reloj" size = "10" style="background-color: black; color: white; font-family: Verdana, Arial, Helvetica; font-size: 8px; text-align: center;"
+            onfocus="window.document.form_reloj.reloj.blur()">
+        </form>
+    </body>
+</html>

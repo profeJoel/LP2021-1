@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+    {% block titulo %} Esta es mi primera pagina con template {% endblock %}
+    {% block contenido %}
+    <div class="card">
+        <div class="card-body">
+            <h1>Pagina de Inicio</h1>
+        </div>
+    </div>
+
+    <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+        <div class="card-header">Curso</div>
+        <div class="card-body">
+          <h5 class="card-title">{{parametro}}</h5>
+          <p class="card-text">
+            {% for alumno in lista: %}
+                <p>{{alumno}}</p>
+            {% endfor %}
+          </p>
+        </div>
+      </div>
+        
+    {% endblock %}

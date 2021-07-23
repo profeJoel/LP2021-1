@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <script language="javascript">
+            window.onload = function(){
+                document.onkeydown = muestraInformacion;
+                document.onkeypress = muestraInformacion;
+                document.onkeyup = muestraInformacion;
+            }
+
+            function muestraInformacion(e){
+                var evento = e || window.event;
+                var mensaje = "Tipo de Evento: " + evento.type + "<br>" + 
+                    "Propiedad keyCode: " + evento.keyCode + "<br>" + 
+                    "Propiedad charCode: " + evento.charCode + "<br>" +
+                    "caracter pulsado: " + String.fromCharCode(evento.charCode);
+
+                info.innerHTML += "<br>---------------------------<br>" + mensaje;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="info"></div>
+    </body>
+</html>

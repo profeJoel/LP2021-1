@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <script language="javascript">
+            function resalta(e){
+                var evento = e || window.event;
+                switch(evento.type){
+                    case 'mouseover': 
+                        this.style.borderColor = 'red';
+                        break;
+                    case 'mouseout':
+                        this.style.borderColor = 'silver';
+                        break;
+                }
+            }
+
+            window.onload = function(){
+                document.getElementById("bloque").onmouseover = resalta;
+                document.getElementById("bloque").onmouseout = resalta;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="bloque" style="width:150px; height:60px; border: thin solid silver">
+            Puedes clickear sobre este elemento!!!
+        </div>
+    </body>
+</html>

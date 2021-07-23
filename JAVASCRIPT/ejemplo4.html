@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script language="javascript">
+            function Saludo(){
+                /*var mensaje = "HOLA MUNDO!\nQue fácil es incluir \'comillas simples\'\n y \"comillas dobles\""
+                alert(mensaje);*/
+                var dias = ["lunes", "martes", "miércoles", "jueves", "viernes", "sábado", "domingo"];
+                for(var i in dias){
+                    alert(dias[i]);
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="button" name="btn1" value="Clickea" onClick="Saludo()">
+        </form>
+        <div onclick="alert('Has clickeado con el mouse!!')"
+            style="width:150px; height:60px; border: thin solid silver"
+            onmouseover="this.style.borderColor='black';"
+            onmouseout="this.style.borderColor='silver';">
+            Puedes clickear sobre este elemento!!!
+        </div>
+    </body>
+</html>

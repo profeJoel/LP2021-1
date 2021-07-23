@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script language="javascript">
+            function muestraCoordenadas(e){
+                var evento = e || window.event;
+                //var X = evento.clientX;
+                //var Y = evento.clientY;
+                //var X = evento.screenX;
+                //var Y = evento.screenY;
+                var X = evento.pageX;
+                var Y = evento.pageY;
+                alert("Mouse en: (" + X + "," + Y + ")");
+            }
+
+            document.onclick = muestraCoordenadas;
+        </script>
+    </head>
+    <body>
+        <div id="info"></div>
+    </body>
+</html>
