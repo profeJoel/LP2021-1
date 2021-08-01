@@ -40,3 +40,13 @@ Clase 27 - (17/06/2021) - Razonamiento en Reglas, Consultas y Creación de Ejecu
 Clase 28 - (22/06/2021) - Presentación de Parcial 2 https://youtu.be/guITGuQ7jKI
 Clase 29 - (24/06/2021) - Consultas sobre Parcial 2 https://youtu.be/eX4c1AQ0v34
 
+--
+Clase 30 - (13/07/2021) - Introducción a JavaScript https://youtu.be/Y1KerYP9tb8
+Clase 31 - (14/07/2021) - Estructuras de Control en JavaScript https://youtu.be/3p7Kx5bjvdw
+Clase 32 - (15/07/2021) - Captura de Eventos en JavaScript https://youtu.be/ICHhbVGzRDo
+
+Clase 33 - (20/07/2021) - Introducción a PHP https://youtu.be/CCnz7ukFhsE
+Clase 34 - (21/07/2021) - PHP, servidor y aplicación con HTML+CSS+JS https://youtu.be/NxpWh_SR-_w
+Clase 35 - (22/07/2021) - Introducción a Python https://youtu.be/NVnAPiJu1-A
+Clase 36 - (23/07/2021) - Implementación Web con Framework Flask https://youtu.be/rkvo0m32UPg
+
